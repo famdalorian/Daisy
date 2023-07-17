@@ -1,149 +1,112 @@
-/* LandingPage.css */
-
-/* Global styles */
+/* Reset Styles */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8; /* Cream background color */
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px;
-  }
-  
-  /* Header */
-  header {
-    background-color: #fff; /* White background color */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  }
-  
-  nav ul {
-    list-style: none;
-  }
-  
-  nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: #333; /* Dark gray text color */
-    font-weight: bold;
-  }
-  
-  /* Hero section */
-  .hero-section {
-    background-image: url('../assets/hero-background.png');
-    background-size: cover;
-    background-position: center;
-    color: #fff; /* White text color */
-    text-align: center;
-    padding: 200px 0;
-  }
-  
-  .hero-content {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  .hero-content h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-  }
-  
-  .hero-content p {
-    font-size: 24px;
-    margin-bottom: 30px;
-  }
-  
-  .btn {
-    background-color: #63c967; /* Green button color */
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s;
-  }
-  
-  .btn:hover {
-    background-color: #4fa655; /* Darker green color on hover */
-  }
-  
-  /* About section */
-  .about-section {
-    background-color: #fff;
-    padding: 80px 0;
-  }
-  
-  .about-section h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  .about-section p {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  /* Contact section */
-  .contact-section {
-    background-color: #f8f8f8; /* Light gray background color */
-    padding: 80px 0;
-  }
-  
-  .contact-section h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  .container form {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  
-  .container form input[type="text"],
-  .container form textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc; /* Light gray border color */
-    border-radius: 4px;
-  }
-  
-  .container form input[type="submit"] {
-    background-color: #63c967; /* Green button color */
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s;
-  }
-  
-  .container form input[type="submit"]:hover {
-    background-color: #4fa655; /* Darker green color on hover */
-  }
-  
-  h1,p{
-    color: #333;
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+}
 
-  }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+a {
+  color: #55a049;
+  text-decoration: none;
+}
+
+/* Landing Page Styles */
+.landing-page {
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  font-size: 18px;
+}
+
+.hero-section {
+  background-image: url('../assets/contact.jpeg');
+  background-size: 35%;
+  background-position: center;
+  color: #fff; /* White text color */
+  text-align: center;
+  padding: 200px 0;
+}
+
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #55a049;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #55a049;
+  color: #ffffff;
+}
+
+.about-section {
+  background-color: #ffffff;
+  padding: 80px 0;
+  color: #333333;
+}
+
+.about-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+footer {
+  padding: 20px;
+  background-color: #55a049;
+  color: #ffffff;
+}
